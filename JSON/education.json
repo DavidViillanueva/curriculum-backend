@@ -1,0 +1,14 @@
+[
+    {
+        "title":"Tecnico Electronico",
+        "level":"Secundario",
+        "institute":"E.P.E.T. Nro 15",
+        "state":"Finalizado"
+    },
+    {
+        "title":"Tecnico Superior en Programacion",
+        "level":"Universitario",
+        "institute":"Universidad Tecnologica Nacional - Facultad Regional Neuquen",
+        "state":"Cursada Finalizada (5 materias restantes)"
+    }
+]
