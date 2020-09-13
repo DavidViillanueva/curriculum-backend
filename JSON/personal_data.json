@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Villanueva David",
+        "age":23,
+        "photo":"url",
+        "about":"",
+        "skills":[
+            "Java",
+            "C++",
+            "C#",
+            "PHP",
+            "SQL",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "ReactJS"
+        ],
+        "languages":[
+            "Ingles (intermedio)"
+        ],
+        "tools":[
+            "Visual Studio Code",
+            "Visual Studio",
+            "Git",
+            "MySQL Workbench"
+        ]
+    }
+]
