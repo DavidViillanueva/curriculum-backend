@@ -9,9 +9,10 @@ const port = process.env.PORT || 8080;
 const personal_data = require('./JSON/personal_data.json');
 const education = require('./JSON/education.json');
 const contact = require('./JSON/contact.json');
+const first = require('./JSON/first_info.json');
 
 app.get('/',(req,res) => {
-    res.send('cv endpoint');
+    res.json(first)
 });
 
 
@@ -19,7 +20,7 @@ app.get('/personal_data',(req,res) => {
     res.json(personal_data);
 });
 
-app.get('/personal_data',(req,res) => {
+app.get('/academic',(req,res) => {
     res.json(education);
 })
 
