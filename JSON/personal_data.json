@@ -2,11 +2,10 @@
     {
         "name":"Villanueva David",
         "age":23,
-        "about":"Habiendo finalizado el cursado de la Tecnicatura Superior en Programacion, me encuentro en busqueda de mi primer experiencia laboral con muchas ganas de aprender nuevas cosas, y poner en practica lo ya aprendido. Me considero una persona entusiasta de las tecnologias y amante de la programacion en general, habiendo programado desde microcontroladores hasta sitios web como pasatiempo, esperando que dicho pasatiempo sea mi trabajo.",
+        "about":"Habiendo finalizado el cursado de la Tecnicatura Superior en Programacion, me encuentro en busqueda de mi primer experiencia laboral con muchas ganas de aprender, y poner en practica lo ya aprendido. Me considero una persona entusiasta de las tecnologias y amante de la programacion en general, habiendo programado desde microcontroladores hasta sitios web como pasatiempo, esperando poder convertir ese pasatiempo sea mi trabajo.",
         "skills":[
             "Java",
             "C++",
-            "C#",
             "PHP",
             "SQL",
             "JavaScript",
