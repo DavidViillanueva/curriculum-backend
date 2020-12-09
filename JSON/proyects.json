@@ -1,0 +1,11 @@
+
+[
+    {
+        "title":"Donation Form",
+        "description":"Este fue un test realizado para una solicitud de empleo con el frontend hecho en React.js y el backend alojado en Firebase, no posee mucha complejidad solo hace lectura de una base de datos no relacional alojada en Firebase donde lee: El monto a recaudar, la cantidad que existe, la fecha de expiracion y la cantidad de donantes. Por medio de funciones estos datos se mantienen actualizados, es importante destacar que no utilice Redux en este proyecto, ni algun reducer. Se utilizaron hooks y funciones personalizadas, y tambien los hooks proporcionados por React. Ademas se utilizo Material para el manejo de la barra de carga, los demas estilos son de mi creacion. Ademas posee 2 lenguajes Ingles y Español que cambian de forma dinamica por la libreria i18next",
+        "img":"https://res.cloudinary.com/dv385mvng/image/upload/v1607553281/proyects/Donation_Form_nplj9x.png",
+        "repositorie":"https://github.com/DavidViillanueva/donation-app---frontend",
+        "link":"",
+        "id": 1
+    }
+]
