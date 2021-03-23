@@ -29,9 +29,6 @@ app.get('/contact',(req,res) => {
     res.json(contact);
 })
 
-app.get('/proyects',(req,res) => {
-    res.json(proyects);
-})
 
 app.listen(port, () => [
     console.log(`Server on: ${port}`)

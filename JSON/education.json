@@ -10,5 +10,12 @@
         "level":"Universitario",
         "institute":"Universidad Tecnologica Nacional - Facultad Regional Neuquen",
         "state":"Cursada Finalizada (3 materias restantes)"
+    },
+    {
+        "title":"React: De cero a experto ( Hooks y MERN )",
+        "level":"Curso",
+        "institute":"Udemy",
+        "state":"En curso"
     }
+
 ]

@@ -2,9 +2,8 @@
     {
         "name":"Villanueva David",
         "age":23,
-        "about":"Habiendo finalizado el cursado de la Tecnicatura Superior en Programacion, me encuentro en busqueda de mi primer experiencia laboral con muchas ganas de aprender, y poner en practica lo ya aprendido. Me considero una persona entusiasta de las tecnologias y amante de la programacion en general, habiendo programado desde microcontroladores hasta sitios web como pasatiempo, esperando poder convertir ese pasatiempo sea mi trabajo.",
+        "about":"Técnico en electrónica orientado al desarrollo de software, finalizando estudios de la Tecnicatura Superior en Programación. Con conocimientos de POO, Programación estructurada y herramientas de desarrollo web. Siempre con ganas de aprender cosas nuevas y aspirando a ser un desarrollador full-stack web pero con mas afinidad por el back-end y manejo de datos. Me encanta estudiar y estar en constante crecimiento académico, ahora buscando el crecimiento personal y nuevos desafios que me enseñen y tambien pongan a prueba lo aprendido hasta ahora.",
         "skills":[
-            "Java",
             "C++",
             "PHP",
             "SQL",
@@ -19,6 +18,8 @@
         "tools":[
             "Visual Studio Code",
             "Visual Studio",
+            "Docker",
+            "Postman",
             "Git",
             "MySQL Workbench"
         ]
