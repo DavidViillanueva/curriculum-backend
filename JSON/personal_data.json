@@ -10,13 +10,14 @@
             "JavaScript",
             "HTML",
             "CSS",
-            "ReactJS"
+            "ReactJS",
+            "Redux",
+            "Node"
         ],
         "languages":[
             "Ingles (intermedio)"
         ],
         "tools":[
-            "Visual Studio Code",
             "Visual Studio",
             "Docker",
             "Postman",
