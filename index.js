@@ -14,7 +14,7 @@ const personal_data = require('./JSON/personal_data.json');
 const education = require('./JSON/education.json');
 const contact = require('./JSON/contact.json');
 const first = require('./JSON/first_info.json');
-const proyects = require('./JSON/proyects.json');
+const jobs = require('./JSON/jobs.json');
 
 
 //Allow CORS
@@ -51,6 +51,10 @@ app.get('/academic',(req,res) => {
 app.get('/contact',(req,res) => {
     res.json(contact);
 })
+app.get('/jobs',(req,res) => {
+    res.json(jobs)
+})
+
 app.use(contactRoutes);
 
 
