@@ -1,7 +1,7 @@
 [
     {
         "name":"Villanueva David",
-        "age":23,
+        "age":24,
         "about":"Técnico en electrónica orientado al desarrollo de software, finalizando estudios de la Tecnicatura Superior en Programación. Con conocimientos de POO, Programación estructurada y herramientas de desarrollo web. Siempre con ganas de aprender cosas nuevas y aspirando a ser un desarrollador full-stack web pero con mas afinidad por el back-end y manejo de datos. Me encanta estudiar y estar en constante crecimiento académico, ahora buscando el crecimiento personal y nuevos desafios que me enseñen y tambien pongan a prueba lo aprendido hasta ahora.",
         "skills":[
             "C++",
