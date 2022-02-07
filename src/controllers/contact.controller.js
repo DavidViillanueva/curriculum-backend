@@ -5,39 +5,27 @@ const { google } = require('googleapis');
 
 const sendEmail = (req,res = response) => {
 
-        const { name , email , body } = req.body;
-   
-
-
-
-    const OAauth2 = google.auth.OAuth2;
-
-    const myOAuth2Client = new OAauth2(
-        process.env.SMTP_CLIENT_ID,
-        process.env.SMTP_CLIENT_SECRET
-    )
-
-    myOAuth2Client.setCredentials({
-        refresh_token: process.env.SMTP_REFRESH_TOKEN
-    })
-
-    const myAccessToken = myOAuth2Client.getAccessToken();
+    const { name , email , body } = req.body;
 
     const transporter = nodemailer.createTransport({
-        service: "gmail",
+        service: 'SendGrid', // upgrade later with STARTTLS
         auth: {
-            type: "OAuth2",
-            user: process.env.SMTP_USER,
-            clientId: process.env.SMTP_CLIENT_ID,
-            clientSecret: process.env.SMTP_CLIENT_SECRET,
-            refreshToken: process.env.SMTP_REFRESH_TOKEN,
-            accessToken: myAccessToken
-        }
+          user: process.env.SMTP_USER,
+          pass: process.env.SMTP_PASSWORD,
+        },
     })
 
+    transporter.verify(function (error, success) {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log("Server is ready to take our messages");
+        }
+      });
+
     const mailOptions = {
-        from: "David",
-        to: "david1997@live.com.ar",
+        from: "david1997@live.com.ar",
+        to: "gdavidv1997@gmail.com",
         subject: "Curriculum contact",
         text: `${name} \n\n ${ body } \n\n ${ email }`,
         html: `<h2>${name}</h2> <p>${body}</p> <a>${email}</a>`
